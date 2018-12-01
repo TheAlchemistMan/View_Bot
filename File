@@ -1,0 +1,28 @@
+import webbrowser as b
+import time
+
+views = int(input("How much views do you want : "))
+
+URL = 'INPUT YOUR URL HERE'
+
+
+
+number = range(1,100)
+i = 0
+for count in number:
+    while i < views:
+        b.open(URL)
+        i += 1
+
+
+        print(str(count) +" Opening " + URL)
+        time.sleep(5)
+        break
+
+
+
+
+input("Press any key to continue...")
+
+
+
