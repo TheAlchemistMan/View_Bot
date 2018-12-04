@@ -7,7 +7,7 @@ URL = 'INPUT YOUR URL HERE'
 
 
 
-number = range(1,100)
+number = range(1,100) //Edit range as you wish
 i = 0
 for count in number:
     while i < views:
@@ -16,7 +16,7 @@ for count in number:
 
 
         print(str(count) +" Opening " + URL)
-        time.sleep(5)
+        time.sleep(5) //Seconds to wait
         break
 
 
